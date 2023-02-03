@@ -18,7 +18,26 @@ const check = ami.startsWith('ami')
 //endswith
 const bookName = 'bangla arbi gonit somaj';
 const bookSearch = bookName.endsWith('somaj')
-console.log(bookSearch)
+// console.log(bookSearch)
+
+
+//-------------------------
+// check the letter on string to includes
+
+const address = 'ami bogora te asi';
+
+//includes
+console.log(address.includes(''));
+
+//indexOf
+console.log(address.indexOf(' '));
+
+//startsWith
+console.log(address.startsWith('ami'));
+
+//endsWith
+console.log(address.endsWith('s'));
+
 
 
 
