@@ -27,17 +27,25 @@ const bookSearch = bookName.endsWith('somaj')
 const address = 'ami bogora te asi';
 
 //includes
-console.log(address.includes(''));
+// console.log(address.includes(''));
 
 //indexOf
-console.log(address.indexOf(' '));
+// console.log(address.indexOf(' '));
 
 //startsWith
-console.log(address.startsWith('ami'));
+// console.log(address.startsWith('ami'));
 
 //endsWith
-console.log(address.endsWith('s'));
+// console.log(address.endsWith('s'));
 
 
+
+let gojol = 'ami allahor golam';
+
+// console.log(gojol.includes('ll'))
+
+// console.log(gojol.indexOf('ll'))
+
+console.log(gojol.indexOf('ll'))
 
 

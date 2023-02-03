@@ -31,6 +31,16 @@ else {
 const nam = 'adiba';
 const nam_1 = 'Adiba';
 if (nam.toLocaleLowerCase() === nam_1.toLocaleLowerCase()) {
+    // console.log(true)
+}
+else {
+    console.log(false)
+}
+
+
+var first = 'aMi';
+var second = 'Ami';
+if (first.toLowerCase() === second.toLowerCase()) {
     console.log(true)
 }
 else {
