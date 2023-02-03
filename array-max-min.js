@@ -28,7 +28,18 @@ const result_1 = maxInArray(array_1);
 // console.log(result_1)
 
 
-function add(a, b) {
-    return a + b;
+
+
+
+/* ------------------------ */
+//--array max number---//
+let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let maxNumber = number[0];
+for (let i = 0; i < number.length; i++) {
+    let index = number[i];
+    if (index < maxNumber) {
+        maxNumber = index;
+    }
 }
-console.log(add("adam" + "eve"))
+console.log(maxNumber)
+
