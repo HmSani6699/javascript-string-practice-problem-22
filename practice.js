@@ -1,3 +1,5 @@
+/* ----------practice problem 1------------ */
+
 function getGor(array) {
     let sum = 0;
     for (let i = 0; i < array.length; i++) {
@@ -12,23 +14,7 @@ let result = getGor(array);
 // console.log(result)
 
 
-/* ------------ */
-
-// let arrayNumber = [1, 3, 5, 2, 4, 6, 7, 9, 8];
-// console.log(arrayNumber)
-
-// let sortedArray = arrayNumber.sort();
-// console.log(sortedArray)
-
-// let lengthArray = sortedArray.length;
-// console.log(lengthArray);
-
-// //get second largest number
-// let largestNUmber = sortedArray[lengthArray - 2];
-// console.log(largestNUmber)
-
-
-
+/* ----------practice problem 2------------ */
 function number(array) {
     let sortedArray = array.sort(((a, b) => a - b));
     let arrayLength = sortedArray.length;
@@ -37,4 +23,14 @@ function number(array) {
 }
 let arrayNumber = [45, 2, 50, 30, 11, 29, 7];
 let secondLargestNumber = number(arrayNumber);
-console.log(secondLargestNumber);
+// console.log(secondLargestNumber);
+
+/* ---------practice problem 3---------- */
+
+function number(num1, num2) {
+    return num1 * num2;
+}
+let length = 7;
+let width = 3;
+let output = number(length, width);
+console.log(output);
